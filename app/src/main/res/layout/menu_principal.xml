@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lblMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu Principal"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnCreateClube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_createClube" />
+
+    <Button
+        android:id="@+id/btnListClube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_listClube" />
+
+    <Button
+        android:id = "@+id/btnCreateCampeonato"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "@string/btn_createCampeonato" />
+
+    <Button
+        android:id = "@+id/btnListCampeonato"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "@string/btn_listCampeonatos" />
+
+    <Button
+        android:id = "@+id/btnCreateRelation"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "@string/btn_createRelation" />
+
+    <Button
+        android:id = "@+id/btnListRelation"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "@string/btn_listRelations" />
+
+</LinearLayout>

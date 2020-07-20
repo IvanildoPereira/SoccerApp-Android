@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">soccerApp2020</string>
+    <string name="btn_createClube">Criar Clube</string>
+    <string name="btn_listClube">Listar Clubes</string>
+    <string name="btn_createCampeonato">Criar Campeonato</string>
+    <string name="btn_listCampeonatos">Listar Campeonatos</string>
+    <string name="btn_createRelation">Criar Relações</string>
+    <string name="btn_listRelations">Listar Relações</string>
+
+    <string name="btn_salvar">Salvar</string>
+
+    <string name="edit_nomeClube">Nome do Clube:</string>
+    <string name="edit_anoFundacao">Ano de Fundação:</string>
+
+    <string name="edit_nomeCampeonato">Nome do Campeonato:</string>
+    <string name="edit_premiacao">Premiação:</string>
+    <string name="edit_local">Local:</string>
+    <string name="edit_Observacao">Observação:</string>
+    <string name="lbl_listClubes">Clubes</string>
+    <string name="lbl_listCampeoantos">Campeonatos</string>
+
+    <string name="btn_pesquisar">Pesquisar</string>
+    <string name="btalterar">Alterar</string>
+    <string name="btexcluir">Excluir</string>
+</resources>

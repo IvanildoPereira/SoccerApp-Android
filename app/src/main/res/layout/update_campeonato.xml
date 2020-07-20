@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_nomeCampeonato"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id = "@+id/TxtEditNomeCampeonato"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:inputType = "text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_premiacao"
+        android:textAlignment="inherit" />
+
+    <EditText
+        android:id="@+id/TxtEditPremiacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textAlignment="inherit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_local"
+        android:textAlignment="inherit" />
+
+    <EditText
+        android:id="@+id/TxtEditLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textAlignment="inherit" />
+        android:textAlignment="inherit" />
+
+    <Button
+        android:id = "@+id/btalterar"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "@string/btalterar" />
+    <Button
+        android:id = "@+id/btexcluir"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "@string/btexcluir" />
+
+</LinearLayout>
